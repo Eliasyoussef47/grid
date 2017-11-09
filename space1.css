@@ -1,0 +1,48 @@
+* {margin: 0;padding: 0;}
+body {
+	background-image: url("bg.png");
+	font-family: Tahoma;
+}
+
+.frame{
+	background-color: rgba(0,128,0,0.4);
+	
+	/* put css-rules in this ccs-block here below */
+	width: 600px;
+	padding: 20px 10px 30px 10px;
+	margin: auto;
+	/* margin-left: 33.33333333333333%; */
+	/* margin-left: 10px; */
+}
+
+h1{
+	background-color: rgba(0,32,0,0.4);
+	line-height: 40px;
+	
+	/* put css-rules in this ccs-block here below */
+	/* margin-top: 10px; */
+	margin-bottom: 20px;
+	/* color: black; */
+	padding: 21px 20px 19px 20px;
+}
+
+h2 {
+	line-height: 30px;
+	
+	/* put css-rules in this ccs-block here below */
+	border: 5px solid #800080;
+	/* box-sizing: border-box; */
+	margin: 10px 0 0 0;
+	padding: 5px 5px 5px 20px;
+}
+
+p{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	
+	/* put css-rules in this ccs-block here below */
+	margin-top: 10px;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+}
